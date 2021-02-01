@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -54,5 +54,9 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
+<<<<<<< HEAD
 $route['login'] = 'home/page_login';
 $route['acceso_login'] = 'home/acceso_login';
+=======
+/*RAMAAAAAAAAA EXTRRAAAA PROBANDO 1 2 3*/
+>>>>>>> f93d7467472b5e5f1e39fa62ae5c90294306f405
