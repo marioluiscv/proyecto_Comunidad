@@ -32,6 +32,8 @@
 		href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900'
 		rel='stylesheet' type='text/css'>
 
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap.min.css">
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -51,7 +53,7 @@
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 					data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
 						class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="index.html"><img src="<?php base_url() ?>assets/img/logo-top.png"
+				<a class="navbar-brand" href="/"><img src="<?php base_url() ?>assets/img/logo-top.png"
 						class="img-responsive"><span>Grit</span></a> </div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->

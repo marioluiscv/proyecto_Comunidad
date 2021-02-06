@@ -31,7 +31,19 @@ class Home extends CI_Controller {
 	public function acceso_login()
 	{
 		$this->load->view('layout/header');
-		$this->load->view('pages/index');
+		$this->load->view('pages/inicio_usuario');
+		$this->load->view('layout/footer');
+	}
+	public function registrar_usuario()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('pages/registro_usuario');
+		$this->load->view('layout/footer');
+	}
+	public function listado_usuarios()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('pages/listar_usuarios');
 		$this->load->view('layout/footer');
 	}
 }
