@@ -46,4 +46,14 @@ class Home extends CI_Controller {
 		$this->load->view('pages/listar_usuarios');
 		$this->load->view('layout/footer');
 	}
+
+	public function forget_pass(){
+		$this->load->view('pages/forget_pass');
+	}
+
+	public function principal(){
+		$this->load->view('layout/header');
+		$this->load->view('pages/index');
+		$this->load->view('layout/footer');
+	}
 }

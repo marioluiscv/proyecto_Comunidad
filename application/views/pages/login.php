@@ -43,7 +43,7 @@
 					<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email">
 						<span class="focus-input100"></span>
-						<span class="label-input100">Email</span>
+						<span class="label-input100">Username</span>
 					</div>
 
 
@@ -57,13 +57,13 @@
 						<div class="contact100-form-checkbox">
 							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
 							<label class="label-checkbox100" for="ckb1">
-								Remember me
+								Recuérdame
 							</label>
 						</div>
 
 						<div>
-							<a href="#" class="txt1">
-								Forgot Password?
+							<a href="forget_pass">
+								¿Se ha olvidado la contraseña?
 							</a>
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 
 					<div class="text-center p-t-46 p-b-20">
 						<span class="txt2">
-							or sign up using
+							o inicia sesión usando
 						</span>
 					</div>
 

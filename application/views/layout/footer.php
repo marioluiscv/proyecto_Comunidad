@@ -3,7 +3,7 @@
 			<div class="row wow fadeInUp">
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<!--copyright-->
-					<p class="copyright">© 2018 <a href="https://dcrazed.com/">Grit</a>. All rights reserved</p>
+					<p class="copyright">© 2021 <a href="https://dcrazed.com/">CUNARC - PERU</a>. All rights reserved</p>
 					<!--/copyright-->
 				</div>
 				<!--bottom nav-->

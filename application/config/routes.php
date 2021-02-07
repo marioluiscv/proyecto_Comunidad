@@ -57,3 +57,5 @@ $route['login'] = 'home/page_login';
 $route['acceso_login'] = 'home/acceso_login';
 $route['registrar_usuario'] = 'home/registrar_usuario';
 $route['listado_usuarios'] = 'home/listado_usuarios';
+$route['forget_pass'] = 'home/forget_pass';
+$route['principal'] = 'home/principal';
