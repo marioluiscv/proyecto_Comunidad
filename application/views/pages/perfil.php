@@ -34,29 +34,51 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_apellido">Apellidos</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
+								<label for="txt_apellido_paterno">Apellido Paterno</label>
+								<input type="text" class="form-control" id="txt_apellido_paterno"
+									placeholder="Apellido paterno">
 							</div>
 						</div>
 					</div>
 					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+								<label for="txt_apellido_materno">Apellido Materno</label>
+								<input type="text" class="form-control" id="txt_apellido_materno"
+									placeholder="Apellido materno">
+							</div>
+						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
 								<label for="txt_documento">Documento de identidad</label>
 								<input type="text" class="form-control" id="txt_documento" placeholder="Documento">
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_telefono">Teléfono</label>
-								<input type="text" class="form-control" id="txt_telefono" placeholder="Teléfono">
+								<label for="txt_celular">Celular</label>
+								<input type="text" class="form-control" id="txt_celular" placeholder="Celular">
 							</div>
+						</div>
+						<div class="col-lg-6">
+                        <div class="form-group">
+							<label for="cbo_tipo_cargo">Tipo Cargo</label>
+								<select class="form-control combobox" name="cbo_tipo_cargo"
+									style="height: 50px!important;">
+									<option value="">Seleccione una opción</option>
+									<option value="">Nacional</option>
+									<option value="">Regional</option>
+									<option value="">Provincial</option>
+								</select>
+							</div>	
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-4">
 							<div class="form-group">
-                            <label for="cbo_departamento">Departamento</label>
+								<label for="cbo_departamento">Departamento</label>
 								<select class="form-control combobox" name="cbo_departamento"
 									style="height: 50px!important;">
 									<option value="">Opción 1</option>
@@ -98,7 +120,6 @@
 								<input type="text" class="form-control" id="txt_baseRondera" placeholder="Base Rondera">
 							</div>
 						</div>
-
 					</div>
 					<div class="row">
 						<div class="col-lg-6">

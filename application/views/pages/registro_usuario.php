@@ -16,7 +16,7 @@
 			<div class="col-md-9 col-sm-7 col-xs-12 page-block ">
 				<h1>Registro de Usuarios</h1>
 				<form action="">
-					<div class="row">
+				<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
 								<label for="txt_nombre">Nombre completo</label>
@@ -25,56 +25,90 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_apellido">Apellidos</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
+								<label for="txt_apellido_paterno">Apellido Paterno</label>
+								<input type="text" class="form-control" id="txt_apellido_paterno"
+									placeholder="Apellido paterno">
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_nombre">Documento de identidad</label>
-								<input type="text" class="form-control" id="txt_nombre" placeholder="Nombre">
+								<label for="txt_apellido_materno">Apellido Materno</label>
+								<input type="text" class="form-control" id="txt_apellido_materno"
+									placeholder="Apellido materno">
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_apellido">Teléfono</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="txt_nombre">Departamento</label>
-								<input type="text" class="form-control" id="txt_nombre" placeholder="Nombre">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="txt_apellido">Provincia</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="txt_apellido">Distrito</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
+								<label for="txt_documento">Documento de identidad</label>
+								<input type="text" class="form-control" id="txt_documento" placeholder="Documento">
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_apellido">Dirección</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
+								<label for="txt_celular">Celular</label>
+								<input type="text" class="form-control" id="txt_celular" placeholder="Celular">
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_apellido">Base rondera</label>
-								<input type="text" class="form-control" id="txt_apellido" placeholder="Apellido">
+							<label for="cbo_tipo_cargo">Tipo Cargo</label>
+								<select class="form-control combobox" name="cbo_tipo_cargo"
+									style="height: 50px!important;">
+									<option value="">Seleccione una opción</option>
+									<option value="">Nacional</option>
+									<option value="">Regional</option>
+									<option value="">Provincial</option>
+								</select>
+							</div>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="cbo_departamento">Departamento</label>
+								<select class="form-control combobox" name="cbo_departamento"
+									style="height: 50px!important;">
+									<option value="">Opción 1</option>
+									<option value="">Opción 2</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="cbo_provincia">Provincia</label>
+								<select class="form-control combobox" name="cbo_provincia"
+									style="height: 50px!important;">
+									<option value="">Opción 1</option>
+									<option value="">Opción 2</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="cbo_distrito">Distrito</label>
+								<select class="form-control combobox" name="cbo_distrito"
+									style="height: 50px!important;">
+									<option value="">Opción 1</option>
+									<option value="">Opción 2</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+								<label for="txt_direccion">Dirección</label>
+								<input type="text" class="form-control" id="txt_direccion" placeholder="Dirección">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group">
+								<label for="txt_base_rondera">Base rondera</label>
+								<input type="text" class="form-control" id="txt_base_rondera" placeholder="Base rondera">
 							</div>
 						</div>
 
@@ -93,7 +127,7 @@
 						</div>
 						<div class="col-lg-6" id="cargoNormal" style="display: none;">
 							<div class="form-group">
-								<label for="txt_cargo">Cargo</label>
+								<label for="txt_cargo">Seleccione una opción</label>
 								<div class="dropdown">
 									<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1"
 										data-toggle="dropdown" aria- haspopup="true"
@@ -110,10 +144,10 @@
 					</div>
 					<div class="row">
 						<div class="checkbox checkbox-success">
-							<input type="checkbox" value="yes" checked>
+							<input name="cbofoto" id="cbofoto" type="checkbox" onchange="javascript:mostrarFoto()">
 							<label> ¿Agregar fotografía?</label>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6" id="fotografia" style="display: none;">
 							<div class="form-group">
 								<label for="txt_apellido">Fotografía</label>
 								<input type="file" class="form-control" id="txt_apellido" placeholder="Apellido">
@@ -123,10 +157,10 @@
 					</div>
 					<div class="row">
 						<div class="checkbox checkbox-success">
-							<input type="checkbox" value="yes" checked>
+							<input name="cbofirma" id="cbofirma" type="checkbox" onchange="javascript:mostrarFirma()">
 							<label> ¿Agregar firma? </label>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6" id="firma" style="display: none;">
 							<div class="form-group">
 								<label for="txt_apellido">Firma</label>
 								<input type="file" class="form-control" id="txt_apellido" placeholder="Apellido">

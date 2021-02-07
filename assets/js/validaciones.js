@@ -12,3 +12,26 @@ function mostrarCargos() {
         element2.style.display='none';
     }
 }
+
+function mostrarFoto() {
+    foto = document.getElementById("fotografia");
+    checkfoto = document.getElementById("cbofoto");
+    
+    if (checkfoto.checked) {
+        foto.style.display='block';
+    }
+    else {
+        foto.style.display='none';
+    }
+}
+function mostrarFirma() {
+    firma = document.getElementById("firma");
+    checkfirma = document.getElementById("cbofirma");
+    
+    if (checkfirma.checked) {
+        firma.style.display='block';
+    }
+    else {
+        firma.style.display='none';
+    }
+}
