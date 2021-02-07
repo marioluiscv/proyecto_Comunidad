@@ -55,38 +55,20 @@
 			</div>
 			<aside class="col-md-3 col-sm-5" style="padding:0;">
 
-				<!--Search-->
-				<section class="widget widget_search  wow fdeInUp">
-					<h2 class="widget-title">Search here</h2>
-					<form>
-						<div class="input-group">
-							<input class="form-control" type="text" placeholder="Email Address...">
-							<span class="input-group-btn">
-								<button type="button"><i class="fa  fa-search"></i></button>
-							</span></div>
-					</form>
-				</section>
-				<!--/Search-->
-
 				<!--Archives start-->
-
 				<section class="widget widget_categories  wow fdeInUp">
 					<h2 class="widget-title">Actividades</h2>
 					<ul>
 						<li><a href="registrar_usuario"> Registrar Usuarios </a> </li>
-						<li><a href="#"> Opción 1</a> </li>
-						<li><a href="#"> Opción 2</a> </li>
-						<li><a href="#"> Opción 3</a> </li>
-						<li><a href="#"> Opción 4</a> </li>						
+						<li><a href="listado_usuarios"> Ver usuarios registrados</a> </li>
+						<li><a href="#"> Reporte de usuarios </a> </li>
+						<li><a href="perfil"> Mi perfil</a> </li>
+						<li><a href="logout"> Cerrar sesión</a> </li>
 					</ul>
 				</section>
-
-				<!--Archives end-->
-
-				<!--Popular posts start-->
-				<!--ad -->
+				
 				<img src="<?php base_url() ?>assets/img/bg-login.png" class="img-responsive ad-block">
-				<!--ad end-->
+				
 				
 			</aside>
 		</div>

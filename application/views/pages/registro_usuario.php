@@ -81,12 +81,41 @@
 					</div>
 					<div class="row">
 						<div class="checkbox checkbox-success">
+							<input name="checkCargo" id="checkCargo" type="checkbox"
+								onchange="javascript:mostrarCargos()">
+							<label> ¿Tiene Cargo Especial?</label>
+						</div>
+						<div class="col-lg-6" id="cargoRepresentante" style="display: block;">
+							<div class="form-group">
+								<label for="txt_cargo">Cargo</label>
+								<input type="text" class="form-control" id="txt_cargo" placeholder="Cargo">
+							</div>
+						</div>
+						<div class="col-lg-6" id="cargoNormal" style="display: none;">
+							<div class="form-group">
+								<label for="txt_cargo">Cargo</label>
+								<div class="dropdown">
+									<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1"
+										data-toggle="dropdown" aria- haspopup="true"
+										aria-expanded="true">Cargo&nbsp;<span
+											class="glyphicon glyphicon-chevron-down"></span></button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<li><a href="#">Action 1</a></li>
+										<li><a href="#">Action 2</a></li>
+										<li><a href="#">Action 3</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="checkbox checkbox-success">
 							<input type="checkbox" value="yes" checked>
 							<label> ¿Agregar fotografía?</label>
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="txt_apellido">Firma</label>
+								<label for="txt_apellido">Fotografía</label>
 								<input type="file" class="form-control" id="txt_apellido" placeholder="Apellido">
 							</div>
 						</div>
@@ -115,11 +144,11 @@
 						<li><a href="registrar_usuario"> Registrar Usuarios </a> </li>
 						<li><a href="listado_usuarios"> Ver usuarios registrados</a> </li>
 						<li><a href="#"> Reporte de usuarios </a> </li>
-						<li><a href="#"> Mi perfil</a> </li>
-						<li><a href="#"> Cerrar sesión</a> </li>
+						<li><a href="perfil"> Mi perfil</a> </li>
+						<li><a href="logout"> Cerrar sesión</a> </li>
 					</ul>
 				</section>
-            
+
 			</aside>
 		</div>
 	</div>
