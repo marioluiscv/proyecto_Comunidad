@@ -18,51 +18,71 @@
 				<table id="example" class="table table-striped table-bordered" style="width:100%">
 					<thead>
 						<tr>
-							<th>Name</th>
-							<th>Position</th>
-							<th>Office</th>
-							<th>Age</th>
-							<th>Start date</th>
-							<th>Salary</th>
+							<th>Nombres</th>
+							<th>Apellidos</th>
+							<th>Cargo</th>
+							<th>Tipo de Cargo</th>
+							<th>Fecha de registro</th>
+							<th>Acción</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Tiger Nixon</td>
-							<td>System Architect</td>
-							<td>Edinburgh</td>
-							<td>61</td>
-							<td>2011/04/25</td>
-							<td>$320,800</td>
+							<td>Mario Luis</td>
+							<td>Centeno Vargas</td>
+							<td>Presidente Nacional</td>
+							<td>Nacional</td>
+							<td>06/02/2021</td>
 						</tr>
 						<tr>
-							<td>Garrett Winters</td>
-							<td>Accountant</td>
-							<td>Tokyo</td>
-							<td>63</td>
-							<td>2011/07/25</td>
-							<td>$170,750</td>
-						</tr>
-						<tr>
-							<td>Ashton Cox</td>
-							<td>Junior Technical Author</td>
-							<td>San Francisco</td>
-							<td>66</td>
-							<td>2009/01/12</td>
-							<td>$86,000</td>
+							<td>Jose Luis</td>
+							<td>Bendezu Cortez</td>
+							<td>Presidente Nacional</td>
+							<td>Nacional</td>
+							<td>06/02/2021</td>
 						</tr>
 					</tbody>
-					<tfoot>
-						<tr>
-							<th>Name</th>
-							<th>Position</th>
-							<th>Office</th>
-							<th>Age</th>
-							<th>Start date</th>
-							<th>Salary</th>
-						</tr>
-					</tfoot>
-				</table>
+				</table><br>
+
+				<h3>Asignación de Rol:</h3>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="input-group"><span class="input-group-btn">
+								<button class="btn btn-success" type="button">Rol: </button>
+							</span>
+							<input class="form-control" type="text" placeholder="Buscar.." />
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="input-group"><span class="input-group-btn">
+								<button class="btn btn-success" type="button">A: </button>
+							</span>
+							<input class="form-control" type="text" placeholder="Buscar.." />
+						</div>
+					</div>
+				</div>
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Asignar Rol</button>
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
+										class="fa fa-close"></i></button>
+								<h4 class="modal-title" id="myModalLabel">Success!</h4>
+							</div>
+							<div class="modal-body">
+								<p>Now the races of these two have been for some ages utterly extinct, and besides to
+									discourse any
+									further of them would not be at all to my purpose.</p>
+							</div>
+							<div class="modal-footer ">
+								<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Click
+									Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 			<aside class="col-md-3 col-sm-5" style="padding:0;">
 
@@ -72,10 +92,10 @@
 					<h2 class="widget-title">Actividades</h2>
 					<ul>
 						<li><a href="registrar_usuario"> Registrar Usuarios </a> </li>
-						<li><a href="#"> Ver usuarios registrados</a> </li>
+						<li><a href="listado_usuarios"> Ver usuarios registrados</a> </li>
 						<li><a href="#"> Reporte de usuarios </a> </li>
-						<li><a href="#"> Mi perfil</a> </li>
-						<li><a href="#"> Cerrar sesión</a> </li>
+						<li><a href="perfil"> Mi perfil</a> </li>
+						<li><a href="logout"> Cerrar sesión</a> </li>
 					</ul>
 				</section>
 
