@@ -16,7 +16,7 @@
 			<div class="col-md-9 col-sm-7 col-xs-12 page-block ">
 				<h1>Registro de Usuarios</h1>
 				<form action="">
-				<div class="row">
+					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
 								<label for="txt_nombre">Nombre completo</label>
@@ -55,7 +55,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-							<label for="cbo_tipo_cargo">Tipo Cargo</label>
+								<label for="cbo_tipo_cargo">Tipo Cargo</label>
 								<select class="form-control combobox" name="cbo_tipo_cargo"
 									style="height: 50px!important;">
 									<option value="">Seleccione una opción</option>
@@ -63,7 +63,7 @@
 									<option value="">Regional</option>
 									<option value="">Provincial</option>
 								</select>
-							</div>							
+							</div>
 						</div>
 					</div>
 					<div class="row">
@@ -108,7 +108,8 @@
 						<div class="col-lg-6">
 							<div class="form-group">
 								<label for="txt_base_rondera">Base rondera</label>
-								<input type="text" class="form-control" id="txt_base_rondera" placeholder="Base rondera">
+								<input type="text" class="form-control" id="txt_base_rondera"
+									placeholder="Base rondera">
 							</div>
 						</div>
 
@@ -127,17 +128,18 @@
 						</div>
 						<div class="col-lg-6" id="cargoNormal" style="display: none;">
 							<div class="form-group">
-								<label for="txt_cargo">Seleccione una opción</label>
-								<div class="dropdown">
-									<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1"
-										data-toggle="dropdown" aria- haspopup="true"
-										aria-expanded="true">Cargo&nbsp;<span
-											class="glyphicon glyphicon-chevron-down"></span></button>
-									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-										<li><a href="#">Action 1</a></li>
-										<li><a href="#">Action 2</a></li>
-										<li><a href="#">Action 3</a></li>
-									</ul>
+								<div class="row">
+									<div class="col-lgl-6">
+										<label for="txt_cargo">Cargo</label><br>
+									</div>
+									<div class="col-lgl-6">
+										<select class="form-control" name="txt_cargo" style="weight: 100px;">
+											<option value="">Seleccione una opción</option>
+											<option value="">Opción 1</option>
+											<option value="">Opción 2</option>
+											<option value="">Opción 3</option>
+										</select>
+									</div>
 								</div>
 							</div>
 						</div>

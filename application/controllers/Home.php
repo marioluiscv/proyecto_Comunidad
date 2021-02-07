@@ -46,8 +46,6 @@ class Home extends CI_Controller {
 		$this->load->view('pages/listar_usuarios');
 		$this->load->view('layout/footer');
 	}
-<<<<<<< HEAD
-
 	public function forget_pass(){
 		$this->load->view('pages/forget_pass');
 	}
@@ -57,7 +55,6 @@ class Home extends CI_Controller {
 		$this->load->view('pages/index');
 		$this->load->view('layout/footer');
 	}
-=======
 	public function perfil()
 	{
 		$this->load->view('layout/header');
@@ -68,5 +65,4 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('pages/login');
 	}
->>>>>>> 2ce5847161240498629f0d506b04e22289517007
 }

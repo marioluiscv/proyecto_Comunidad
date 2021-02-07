@@ -1,5 +1,4 @@
 <footer id="bottom-footer">
-<<<<<<< HEAD
 		<div class="container">
 			<div class="row wow fadeInUp">
 				<div class="col-md-4 col-sm-4 col-xs-12">
@@ -27,23 +26,6 @@
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-=======
-	<div class="container">
-		<div class="row wow fadeInUp">
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<!--copyright-->
-				<p class="copyright">© 2018 <a href="https://dcrazed.com/">Grit</a>. All rights reserved</p>
-				<!--/copyright-->
-			</div>
-			<!--bottom nav-->
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<nav class="bottom-nav">
-					<ul>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Pricing</a></li>
->>>>>>> 2ce5847161240498629f0d506b04e22289517007
 					</ul>
 				</nav>
 			</div>
